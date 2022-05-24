@@ -46,11 +46,11 @@ It may be downloaded from [https://community.nanoporetech.com/downloads](https:/
 **MinKNOW Ubuntu 20.04 (Working as of 17/3/2022):**
 
 ```console
-$ sudo apt-get update <br />
-$ sudo apt-get install wget <br />
-$ wget -O- https://mirror.oxfordnanoportal.com/apt/ont-repo.pub | sudo apt-key add - <br />
-$ echo "deb http://mirror.oxfordnanoportal.com/apt focal-stable non-free" | sudo tee /etc/apt/sources.list.d/nanoporetech.sources.list <br />
-$ sudo apt-get update <br />
+$ sudo apt-get update 
+$ sudo apt-get install wget 
+$ wget -O- https://mirror.oxfordnanoportal.com/apt/ont-repo.pub | sudo apt-key add - 
+$ echo "deb http://mirror.oxfordnanoportal.com/apt focal-stable non-free" | sudo tee /etc/apt/sources.list.d/nanoporetech.sources.list 
+$ sudo apt-get update 
 $ sudo apt-get install minion-nc
 
 ```
@@ -68,8 +68,8 @@ $ sudo apt install git
 When the dependencies above have been installed, MOSS can be cloned from [Github](https://github.com/MBHallgren/MOSS).
 The cloning and subsequent installation of docker images and MOSS can be done with the following set of commands: 
 ```console
-$ git clone https://github.com/MBHallgren/moss.git <br />
-$ cd moss <br />
+$ git clone https://github.com/MBHallgren/moss.git 
+$ cd moss 
 $ python3 moss_install.py
 ```
 
