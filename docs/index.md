@@ -2,16 +2,11 @@
 
 For technical documentation visit [github.com/MBHallgren/MOSS](https://github.com/MBHallgren/MOSS).
 
-## Commands
+## What is MOSS?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+MOSS is a fully automated analytical tool which provides phylogeny analyses about clinical isolates.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## What does MOSS produce?
+MOSS produces a pdf report about each isolates containing AMR genes, plasmids, virulence genes, mlst and much more.
+Additionally, if any closely related isolates are found in the database a phylogeny analysis will be carried out.
+All clinical data and metadata will be stored in an SQL database, thus allowing for multiuser surveillance of pathogens.
