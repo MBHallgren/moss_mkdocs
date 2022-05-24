@@ -19,9 +19,11 @@ After following the installation instructions above, run the following command i
 
 ```console
 $ sudo groupadd docker 
-
+```
+```console
 $ sudo usermod -aG docker $USER
-
+```
+```console
 $ sudo chmod 666 /var/run/docker.sock
 ```
 
@@ -47,12 +49,21 @@ It may be downloaded from [https://community.nanoporetech.com/downloads](https:/
 
 ```console
 $ sudo apt-get update 
+```
+```console
 $ sudo apt-get install wget 
+```
+```console
 $ wget -O- https://mirror.oxfordnanoportal.com/apt/ont-repo.pub | sudo apt-key add - 
+```
+```console
 $ echo "deb http://mirror.oxfordnanoportal.com/apt focal-stable non-free" | sudo tee /etc/apt/sources.list.d/nanoporetech.sources.list 
+```
+```console
 $ sudo apt-get update 
+```
+```console
 $ sudo apt-get install minion-nc
-
 ```
 
 GUPPY GPU
