@@ -69,7 +69,11 @@ When the dependencies above have been installed, MOSS can be cloned from [Github
 The cloning and subsequent installation of docker images and MOSS can be done with the following set of commands: 
 ```console
 $ git clone https://github.com/MBHallgren/moss.git 
+```
+```console
 $ cd moss 
+```
+```console
 $ python3 moss_install.py
 ```
 
