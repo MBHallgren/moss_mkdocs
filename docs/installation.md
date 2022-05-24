@@ -18,8 +18,10 @@ Docker is required and can be installed from: [Docker Ubuntu Installation](https
 After following the installation instructions above, run the following command in the terminal to complete the and then restart the terminal:
 
 ```console
-$ sudo groupadd docker <br />
-$ sudo usermod -aG docker $USER <br />
+$ sudo groupadd docker 
+
+$ sudo usermod -aG docker $USER
+
 $ sudo chmod 666 /var/run/docker.sock
 ```
 
