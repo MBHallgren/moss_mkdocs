@@ -4,8 +4,8 @@
 
 Microbial Outbreak Surveillance System (MOSS) was designed to run on a linux distribution.
 It was both developed and tested on various Ubuntu distributions, and it is therefore **strongly**
-recommended that users of MOSS use Ubuntu as their operational system. The latest tested Ubuntu version
-is 21.10. 
+recommended that users of MOSS use Ubuntu as their operational system. The recommended ubuntu version is 20.04, as this
+the latest stables version for MinKNOW.
 
 ## Anaconda
 
@@ -24,12 +24,16 @@ If installed correctly, the "nvidia-smi" command in the terminal sound promt inf
 Nvidia driver installation challenges can be quite different, so unfortunately no universal easy-fix can be provided.
 In this situation remember that google is your friend.
 
+The MOSS system was built and tested on a HP ZBOOK studio G8 Mobile WorkStation. 
+The stable kernel which works with the nvidia-510 driver is 5.10.0-1044-oem. 
+For help see: [nvidia-smi ubuntu kernel HP ZBOOK](https://forums.developer.nvidia.com/t/ubuntu-20-04-4-hp-zbook-studio-g8-mobile-workstation-driver-fails/208836/3).
+
 ## Oxford Nanopore Technologies software: MinKNOW
 
 For performing the sequencing with Oxford Nanopore sequencers MinKNOW must be installed.
 It may be downloaded from [https://community.nanoporetech.com/downloads](https://community.nanoporetech.com/downloads) or alternatively from directly from the following commands:
 
-**MinKNOW Ubuntu >=20 (Working as of 17/3/2022):**
+**MinKNOW Ubuntu 20.04 (Working as of 17/3/2022):**
 
 ```console
 $ sudo apt-get update
@@ -56,10 +60,6 @@ $ git clone https://github.com/MBHallgren/MOSS.git
 $ cd MOSS
 $ python3 moss_install.py
 ```
-
-
-
-
 
 Lorem markdownum [pollice
 Hypseus](http://www.corpore-data.com/cnosiaco-sidera.aspx) per certe patria
