@@ -1,5 +1,5 @@
 site_name: Microbial Outbreak Surveillance System
-site_url: https://example.com/
+site_url: https://MBHallgren.github.io/moss_mkdocs/
 nav:
     - Home: index.md
     - Installation: installation.md

@@ -6,7 +6,7 @@ The moss database can be downloaded from: TBA LINK. <br />
 
 The database consists of 4 KMA indexed files:  <br /> <br />
 
-![alt text](../images/bacteriaatg.png) <br /> <br />
+![alt text](/images/bacteriaatg.png) <br /> <br />
 
 The database should be a whole genome bacteria database indexed with KMA with the prefix .ATG.
 

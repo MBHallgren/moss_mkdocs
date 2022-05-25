@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://MBHallgren.github.io/moss_mkdocs/</loc>
+         <lastmod>2022-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://MBHallgren.github.io/moss_mkdocs/about/</loc>
+         <lastmod>2022-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://MBHallgren.github.io/moss_mkdocs/citation/</loc>
+         <lastmod>2022-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://MBHallgren.github.io/moss_mkdocs/installation/</loc>
+         <lastmod>2022-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://MBHallgren.github.io/moss_mkdocs/setup/</loc>
+         <lastmod>2022-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://MBHallgren.github.io/moss_mkdocs/usage/</loc>
+         <lastmod>2022-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
