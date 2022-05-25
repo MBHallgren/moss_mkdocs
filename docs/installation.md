@@ -42,7 +42,7 @@ For help see: [nvidia-smi ubuntu kernel HP ZBOOK](https://forums.developer.nvidi
 
 After a successful installation of the nvidia drivers entering the *nvidia-smi* command should give the following output: <br />
 
-![Nvidia-smi command](../images/nvidia-smi.png)
+![Nvidia-smi command](./images/nvidia-smi.png)
 
 
 ## Oxford Nanopore Technologies software: MinKNOW

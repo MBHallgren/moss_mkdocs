@@ -27,7 +27,7 @@ Provide a unique experiment name. The experiment name should NOT be a small, gen
 Select the prefered base calling algorithm (HAC is recommended as default). Select flow-cell type, kit and barcodes. <br />
 Finally, submit the base calling run.
 <br/>
-![](../images/basecall.png) <br /> <br />
+![](./images/basecall.png) <br /> <br />
 
 ## Entering meta data for sequencing run
 When FastQ files have been produced, either from automated base calling with MinKNOW or through the MOSS app, it is now time to submit meta data about the experiment.
@@ -40,7 +40,7 @@ An experiment name already used will not be accepted by the system.<br /> <br />
 After entering experiment name and isolate files, hit the *Generate meta data table* button.
 Fill in the corresponding meta data for each isolate and generate the meta data sheet. <br /> <br />
 <br/>
-![](../images/metadata.png) <br /> <br />
+![](./images/metadata.png) <br /> <br />
 
 **The meta data sheet is the only item required to begin an analysis** 
 
@@ -48,5 +48,5 @@ Fill in the corresponding meta data for each isolate and generate the meta data 
 After successfully generating a meta data sheet for your sequencing experiment, go to *Home > Analyse*. <br />
 Select the meta data sheet and submit the analyses. The progress and result of the analysis can be seen in the *Results* section in the left-side menu.
 <br/>
-![](../images/results.png) <br /> <br />
+![](./images/results.png) <br /> <br />
 
