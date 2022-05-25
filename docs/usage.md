@@ -42,7 +42,9 @@ Fill in the corresponding meta data for each isolate and generate the meta data 
 <br/>
 ![](./images/metadata.png) <br /> <br />
 
-**The meta data sheet is the only item required to begin an analysis** 
+**The generated meta data sheet can be found in the folder *metadata_csv*, which automatically has been added to the favorite left sidebar of the file selection.
+![](./images/foldercsv.png) <br /> <br />
+
 
 ## Running an analysis
 After successfully generating a meta data sheet for your sequencing experiment, go to *Home > Analyse*. <br />
