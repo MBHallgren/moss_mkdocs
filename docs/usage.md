@@ -50,3 +50,6 @@ Select the meta data sheet and submit the analyses. The progress and result of t
 <br/>
 ![](./images/results.png) <br /> <br />
 
+**Clicking on the little report icon to the right of the samples will open their PDF report.
+Generating the PDF is the last step of the pipeline and so a blank document will open if the analysis has not completed**
+
