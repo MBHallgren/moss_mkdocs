@@ -4,7 +4,7 @@
 
 The moss database can be downloaded from: TBA LINK. <br />
 
-The database consists of 4 KMA indexed files:  <br /> <br />
+The database consists of 4 KMA indexed files:  <br />
 
 ![](./images/database.png) <br /> <br />
 

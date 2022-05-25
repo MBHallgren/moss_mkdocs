@@ -26,7 +26,6 @@ Provide a unique experiment name. The experiment name should NOT be a small, gen
 **Good experiment name: icu_patients_denmark_june_1_6_1996** <br /> <br />
 Select the prefered base calling algorithm (HAC is recommended as default). Select flow-cell type, kit and barcodes. <br />
 Finally, submit the base calling run.
-<br/>
 ![](./images/basecall.png) <br /> <br />
 
 ## Entering meta data for sequencing run
@@ -38,11 +37,11 @@ The experiment name should NOT be a small, generic one. <br /> <br />
 An experiment name already used will not be accepted by the system.<br /> <br />
 
 After entering experiment name and isolate files, hit the *Generate meta data table* button.
-Fill in the corresponding meta data for each isolate and generate the meta data sheet. <br /> <br />
+Fill in the corresponding meta data for each isolate and generate the meta data sheet.
 <br/>
 ![](./images/metadata.png) <br /> <br />
 
-**The generated meta data sheet can be found in the folder *metadata_csv*, which automatically has been added to the favorite left sidebar of the file selection.
+**The generated meta data sheet can be found in the folder *metadata_csv*, which automatically has been added to the favorite left sidebar of the file selection.**
 ![](./images/foldercsv.png) <br /> <br />
 
 
