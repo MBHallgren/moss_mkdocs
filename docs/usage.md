@@ -12,6 +12,8 @@ Make sure that these are run using GPU base calling.
 
 ### FastQ
 During MinKNOW sequencing base calling can be performed automatically. This will produce fastQ files, which is prefered.
+<br />
+**Make sure that GPU base calling has been [correctly configured with MinKNOW]([Nvidia CUDA toolkit](https://community.nanoporetech.com/docs/prepare/library_prep_protocols/experiment-companion-minknow/v/mke_1013_v1_revcf_11apr2016/installing-gpu-version-of-guppy-with-minknow-for-minion)).**
 
 ### Fast5
 Alternatively, sequencing with MinKNOW can be performed without doing live base calling.

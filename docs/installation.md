@@ -72,8 +72,7 @@ $ sudo apt-get install minion-nc
 ```
 
 ### Guppy GPU for MinKNOW
-
-TBD
+If you want to use automated GPU base calling with MinKNOW, make sure you [configure the software](https://community.nanoporetech.com/docs/prepare/library_prep_protocols/experiment-companion-minknow/v/mke_1013_v1_revcf_11apr2016/installing-gpu-version-of-guppy-with-minknow-for-minion).
 
 ## Cloning from Github
 
