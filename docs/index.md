@@ -5,6 +5,7 @@ For technical documentation visit [github.com/MBHallgren/MOSS](https://github.co
 ## What is MOSS?
 
 MOSS is a fully automated analytical tool which provides phylogeny analyses about clinical isolates.
+It is designed to only use Oxford Nanopore long read data as input.
 
 ## What does MOSS produce?
 MOSS produces a pdf report about each isolates containing AMR genes, plasmids, virulence genes, mlst and much more.

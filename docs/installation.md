@@ -40,6 +40,11 @@ The MOSS system was built and tested on a HP ZBOOK studio G8 Mobile WorkStation.
 The stable kernel which works with the nvidia-510 driver is 5.10.0-1044-oem. 
 For help see: [nvidia-smi ubuntu kernel HP ZBOOK](https://forums.developer.nvidia.com/t/ubuntu-20-04-4-hp-zbook-studio-g8-mobile-workstation-driver-fails/208836/3).
 
+After a successful installation of the nvidia drivers entering the *nvidia-smi* command should give the following output: <br />
+
+![Nvidia-smi command](../images/nvidia-smi.png)
+
+
 ## Oxford Nanopore Technologies software: MinKNOW
 
 For performing the sequencing with Oxford Nanopore sequencers MinKNOW must be installed.
@@ -66,7 +71,9 @@ $ sudo apt-get update
 $ sudo apt-get install minion-nc
 ```
 
-GUPPY GPU
+### Guppy GPU for MinKNOW
+
+TBD
 
 ## Cloning from Github
 
@@ -86,6 +93,13 @@ $ cd moss
 ```
 ```console
 $ python3 moss_install.py
+```
+
+## Checking installation
+Check that the installation has been successful by running:
+
+```console
+$ python3 /opt/moss/src/check_installation.py
 ```
 
 ## Running the moss GUI app
