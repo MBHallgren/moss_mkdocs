@@ -22,13 +22,15 @@ The MOSS base calling section is found in the left-side menu of the app.
 
 #### MOSS Base calling
 Open the MOSS app and click on "Base calling" in the left-side menu.
-Upload the folder containing the many, smaller fast5 files which was generated doing sequencing.
+Upload the folder containing subfolders named barcode01-12.
 Provide a unique experiment name. The experiment name should NOT be a small, generic one. <br /> <br />
 **Bad experiment name: nanopore_run_1** <br />
 **Good experiment name: icu_patients_denmark_june_1_6_1996** <br /> <br />
 Select the prefered base calling algorithm (HAC is recommended as default). Select flow-cell type, kit and barcodes. <br />
 Finally, submit the base calling run.
 ![](./images/basecall.png) <br /> <br />
+
+FastQ reads will automatically be placed in /opt/moss_data/fastq.
 
 ## Entering meta data for sequencing run
 When FastQ files have been produced, either from automated base calling with MinKNOW or through the MOSS app, it is now time to submit meta data about the experiment.
