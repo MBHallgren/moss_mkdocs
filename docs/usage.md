@@ -30,7 +30,7 @@ Select the prefered base calling algorithm (HAC is recommended as default). Sele
 Finally, submit the base calling run.
 ![](./images/basecall.png) <br /> <br />
 
-FastQ reads will automatically be placed in /opt/moss_data/fastq.
+FastQ reads will automatically be placed in /opt/moss_data/fastq. This folder is also automatically located in the left side menu of the Files finder.
 
 ## Entering meta data for sequencing run
 When FastQ files have been produced, either from automated base calling with MinKNOW or through the MOSS app, it is now time to submit meta data about the experiment.
