@@ -22,7 +22,7 @@ The MOSS base calling section is found in the left-side menu of the app.
 
 #### MOSS Base calling
 Open the MOSS app and click on "Base calling" in the left-side menu.
-Upload the folder containing subfolders named barcode01-12.
+Upload the folder contains the many fast5s from your experiment.
 Provide a unique experiment name. The experiment name should NOT be a small, generic one. <br /> <br />
 **Bad experiment name: nanopore_run_1** <br />
 **Good experiment name: icu_patients_denmark_june_1_6_1996** <br /> <br />
